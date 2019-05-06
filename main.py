@@ -7,7 +7,7 @@ import time #
 import threading #
 import argparse #
 import csv #
-import vlc2
+import vlc
 
 import tkinter as Tk
 import pathlib
@@ -90,7 +90,7 @@ class Player(Tk.Frame):
         self.parent.bind("<KeyRelease-space>", self.key_release_listener)
 
         # VLC player controls
-        self.Instance = vlc2.Instance()
+        self.Instance = vlc.Instance()
         self.player = self.Instance.media_player_new()
 
         media = self.Instance.media_new(rating_meter.filename)
@@ -131,7 +131,7 @@ class Player(Tk.Frame):
             self.player.pause()
         if self.rating_meter.running and not self.player.is_playing():
             self.player.play()
-        if self.rating_meter.running and self.player.get_state() == vlc2.State.Ended:
+        if self.rating_meter.running and self.player.get_state() == vlc.State.Ended:
             self.quit()
             self.rating_meter.process_csv_file()
             self.destroy()
