@@ -12,12 +12,13 @@ This tool displays a video that can be rated (binary, 0 or 1) using a keybord "s
 
 ## Setting up the conda environnement 
 1. Using the CLI, navigate to the unziped project. 
-2. In the project, run this command inside the CLI 
-```python
-conda env create -f environment.yml
-```
-This will create an environment (named ```python353```) with all the required dependencies. 
-
+2. In the project, run this command inside the CLI  ```conda env create -f environment.yml```. This will create an environment (named ```python353```) with all the required dependencies. 
 3. Activate the environment using the command ```conda activate python353```. 
-4. To use the rating tool, run the command ```python main.py```
-5. This will open a small GUI, which you can use to set rating speed and select the video you want to rate.
+
+## Using the tool
+1. To use the rating tool, run the command ```python path/to/main.py```. If you're still inside the project folder, you can simply run 
+```python main.py```
+2. This will open a small GUI, which you can use to set rating speed and select the video you want to rate.
+
+## Collecting rating results
+The results are stored in a CSV file, in the same folder as the rated video. Units of time are in miliseconds. Enjoy! :) 
