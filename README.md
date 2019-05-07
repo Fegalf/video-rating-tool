@@ -10,7 +10,7 @@ This tool displays a video that can be rated (binary, 0 or 1) using a keybord "s
 3. When installation of anaconda is completed, open an Anaconda prompt (look for "anaconda prompt" in windows search bar). This will open a command line interface (CLI). 
 4. Download this project as a zip file, and unzip it.
 
-## Setting up and activate the conda environnement 
+## Setting up and activating the conda environnement 
 1. Using the CLI, navigate to the unziped project. 
 2. In the project, run this command inside the CLI  ```conda env create -f ratingtoolenv.yml```. This will create an environment (named ```ratingtool```) with all the required dependencies. 
 3. Activate the environment using the command ```conda activate ratingtool```. 
