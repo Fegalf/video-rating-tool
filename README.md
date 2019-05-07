@@ -10,15 +10,15 @@ This tool displays a video that can be rated (binary, 0 or 1) using a keybord "s
 3. When installation of anaconda is completed, open an Anaconda prompt (look for "anaconda prompt" in windows search bar). This will open a command line interface (CLI). 
 4. Download this project as a zip file, and unzip it.
 
-## Setting up the conda environnement 
+## Setting up and activate the conda environnement 
 1. Using the CLI, navigate to the unziped project. 
-2. In the project, run this command inside the CLI  ```conda env create -f environment.yml```. This will create an environment (named ```python353```) with all the required dependencies. 
-3. Activate the environment using the command ```conda activate python353```. 
+2. In the project, run this command inside the CLI  ```conda env create -f ratingtoolenv.yml```. This will create an environment (named ```ratingtool```) with all the required dependencies. 
+3. Activate the environment using the command ```conda activate ratingtool```. 
 
 # Using the tool
 1. To use the rating tool, run the command ```python path/to/main.py```. If you're still inside the project folder, you can simply run 
 ```python main.py```
-2. This will open a small GUI, which you can use to set rating speed and select the video you want to rate.
+2. This will open a small red GUI, which you can use to set rating speed and select the video you want to rate.
 3. To start rating, press "Enter".
 4. While the video is displayed, use the "Spacebar" key to change the value of rating from 0 to 1. 
 5. You can escape at anytime using the "Escape" key. 
