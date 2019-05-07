@@ -262,6 +262,8 @@ class SelectVideoAndSpeedGUI:
         self.master = master
         master.title("Video rating tool")
 
+        self.master.config(bg='red')
+        self.master.resizable(False, False)
         self.speed = 1
         self.filepath = ""
         self.cwd = os.path.dirname(os.path.dirname(os.getcwd()))
