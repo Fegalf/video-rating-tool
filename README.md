@@ -12,7 +12,7 @@ This tool displays a video that can be rated (binary, 0 or 1) using a keybord "s
 
 ## Setting up and activating the conda environnement 
 1. Using the CLI, navigate to the unziped project. 
-2. In the project, run this command inside the CLI  ```conda env create -f ratingtoolenv.yml```. This will create an environment (named ```ratingtool```) with all the required dependencies. 
+2. In the project, run this command inside the CLI  ```conda env create -f ratingtoolenv.yml```. This will create an environment named ```ratingtool``` with all the required dependencies. 
 3. Activate the environment using the command ```conda activate ratingtool```. 
 
 # Using the tool
