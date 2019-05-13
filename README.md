@@ -5,7 +5,7 @@ This tool displays a video that can be rated (binary, 0 or 1) using a keybord "s
 
 # Installation
 ## Installing VLC and Anaconda
-1. Download and install VLC at: https://get.videolan.org/vlc/3.0.6/win32/vlc-3.0.6-win32.exe
+1. Download and install VLC (make sure to download the 64 bits version) at: https://www.videolan.org/vlc/index.html
 2. Download and install Anaconda for python 3.7 at: https://www.anaconda.com/distribution/
 3. When installation of anaconda is completed, open an Anaconda prompt (look for "anaconda prompt" in windows search bar). This will open a command line interface (CLI). 
 4. Download this project as a zip file, and unzip it.
